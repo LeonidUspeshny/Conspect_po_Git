@@ -19,3 +19,5 @@ git branch -M main
 git remote add origin https://github.com/LeonidUspeshny/test.git
 git push -u origin main
 ```
+
+Отслеживание новых файлов git add README
