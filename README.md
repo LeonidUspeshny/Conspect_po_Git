@@ -6,3 +6,16 @@ git clone https://github.com/libgit2/libgit2 клонироует репозит
 Эта команда делает всё то же самое, что и предыдущая, только результирующий каталог будет назван mylibgit.
 
 git status - Основной инструмент, используемый для определения, какие файлы в каком состоянии находятся 
+
+
+## Создать новый репозиторий или проект
+
+```
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LeonidUspeshny/test.git
+git push -u origin main
+```
