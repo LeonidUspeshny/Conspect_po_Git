@@ -1,4 +1,5 @@
 # Notice
+## Конспект по изучению Git
 
 git clone https://github.com/libgit2/libgit2 клонироует репозиторий (на локальный диск)
 
@@ -31,4 +32,5 @@ $ cat .gitignore
 *.[oa]
 ```
 
-new string
+Вы можете набрать свой комментарий к коммиту в командной строке вместе с командой commit указав его после параметра -m, как в следующем примере:
+$ git commit -m "Story 182: fix benchmarks for speed"
