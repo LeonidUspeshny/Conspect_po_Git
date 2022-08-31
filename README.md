@@ -30,3 +30,5 @@ git push -u origin main
 $ cat .gitignore
 *.[oa]
 ```
+
+new string
